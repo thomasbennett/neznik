@@ -1,0 +1,51 @@
+body { 
+}
+
+a { 
+}
+
+p { 
+}
+
+h1, h1 a {
+}
+
+ul li { 
+}
+
+
+ul.inline li { display: inline-block; float: left; }
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both }
+.centered { width: 960px; margin: 0 auto; }
+.align-right { text-align: right; }
+
+/* TEMPLATE */
+
+div#logo {
+}
+
+form#global-search {
+}
+
+input#search {
+}
+
+input.search-submit {
+}
+
+div#container {
+}
+
+div#content {
+}
+
+div#sidebar {
+}
+
+div#footer {
+}
+
+div#footer a { 
+}

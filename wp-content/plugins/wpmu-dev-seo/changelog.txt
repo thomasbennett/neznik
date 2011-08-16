@@ -1,0 +1,130 @@
+Plugin Name: WPMU DEV SEO
+Author: Ulrich Sossou (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.2.1 - 07/16/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fixed autolink detection for strings that start with an 
+non-ascii letter. 
+
+1.2 - 07/15/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Added "show tab" option to Network Admin while in sitewide, to apply 
+tab permissions once the plugin goes in per-blog mode
+- Added "tags as keywords" checkbox.
+- Keywords as tags working.
+- Fixed issue with SEOmoz dashboard widget not getting the required info.
+- Fixed SEOmoz results caching in transients.
+- Changed sitemap path box to actual input box.
+
+1.1.2 - 06/15/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fix for issue with apostrophe (and other html special chars) 
+in SEO metabox. 
+
+1.1.1 - 06/14/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Add htmlemtities and wordpress texturizer alternations for custom 
+keywords in Autolinks.
+
+1.1 - 06/13/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Added SEOmoz dashboard widget.
+- Added character couter and limits for SEO metabox.
+- Added meta keywords field to SEO metabox.
+- Fix for WPMU DEV SEO metabox using fixed width.
+- Fix for WDS_SITEWIDE define to toggle per-blog settings availability.
+
+1.0.9.7 - 06/02/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Re-wrote some of the code.
+
+1.0.9.6 - 05/21/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fixed the the SimplePress incompatibility issue.
+
+1.0.9.5 - 05/15/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fixed the robots settings display on Page/Post list page.
+
+1.0.9.4 - 05/10/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Normalizing newlines for title rewriting in head buffer.
+- Allowed matching title tags with arguments.
+- Re-introduced `wp_title` filter. 
+ 
+1.0.9.3 - 05/02/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fixed header detection regular expression.
+- Removed HTML comments.
+ 
+1.0.9.2 - 05/01/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Added Contributors to both metabox allowed lists.
+ 
+1.0.9.1 - 04/28/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fixed title rewriting in feeds
+ 
+1.0.9 - 04/23/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Forced collapsed state on WDS metaboxes.
+- Deprecated default metabox hiding.
+- Fixed default permission level for showing metaboxes on singular installs.
+- Added WPMU DEV SEO metabox title l10n for Network installs. Singular installs will still see the branding.
+ 
+
+1.0.8 - 04/22/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fix for relative stylesheet URLs in sitemaps.
+- Fix for generating AND outputing sitemaps, without rebuilding on refresh.
+- Fix for auto-populating settings without admin having to visit the dashboard.
+- Added SEO and SEOmoz metabox toggling options and user displaying permission. 
+
+1.0.7 - 04/20/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fix for title rewriting issues. 
+
+1.0.6 - 04/16/2011 Vladislav Bailovic
+----------------------------------------------------------------------
+- Fix for SEOMoz API data fetching bug (transient data being stuck). 
+- Fix for "Error: options page not found" message on multiple options step saves.
+- Updated Title SEO tweak to work with BuddyPress as well.
+- Fix for Sitemaps: using a regex match to determine if the sitemap was requested. Using a relative path to link the XSL stylesheet to it.
+- Added some error checking with is_wp_error
+- Some naming convention consistency fixes for option names.
+- Some PHP fixes.
+
+1.0.5 - 03/25/2011 Aaron Edwards
+----------------------------------------------------------------------
+- Fixes for PHP 4 incompatibilities
+- Limited posts in sitemap to 1000 most recent to prevent memory errors.
+- Added WDS_SITEMAP_POST_LIMIT define to be able to adjust limit in wp-config
+- Bug fix: Was killing admin help content
+
+1.0.4 - 03/24/2011 Aaron Edwards
+----------------------------------------------------------------------
+- Fixes to various php errors
+- Increase the time-limit for sitemap creation to work with big blogs
+
+1.0.3 - 03/07/2011
+----------------------------------------------------------------------
+- Enhancement: store sitemap in wp-content/uploads for main site on
+multisite
+
+1.0.2 - 03/05/2011
+----------------------------------------------------------------------
+- Bug fix: remove fields added to quick edit which where triggering a
+fatal error
+
+1.0.1 - 03/02/2011
+----------------------------------------------------------------------
+- Bug fix: sitemap not created on Multisite when blog upload dir doesn't
+exist yet
+
+1.0 - 01/08/2010
+----------------------------------------------------------------------
+- Initial Release.

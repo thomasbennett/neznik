@@ -1,0 +1,865 @@
+# Translation of the WordPress plugin WPMU DEV SEO 1.0 by Ulrich Sossou (Incsub).
+# Copyright (C) 2011 Ulrich Sossou (Incsub)
+# This file is distributed under the same license as the WPMU DEV SEO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMU DEV SEO 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-13 14:54+0100\n"
+"PO-Revision-Date: 2011-06-13 14:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: Incsub\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\seo-stable\\wp-content\\plugins\\wpmu-dev-seo\n"
+"X-Poedit-SearchPath-0: wds-files\n"
+"X-Poedit-SearchPath-1: wds-files/wds-core\n"
+"X-Poedit-SearchPath-2: wds-files/wds-core/admin\n"
+"X-Poedit-SearchPath-3: wds-files/wds-autolinks\n"
+"X-Poedit-SearchPath-4: wds-files/wds-onpage\n"
+"X-Poedit-SearchPath-5: wds-files/wds-seomoz\n"
+"X-Poedit-SearchPath-6: wds-files/wds-sitemaps\n"
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:6
+#: wds-files/wds-core/admin/wds-core-config.php:28
+msgid "Automatic Links"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:7
+msgid ""
+"<p>Sometimes you want to always link certain key words to a page on your blog or even a whole new site all together.</p>\n"
+"\t<p>For example, maybe anytime you write the words 'WordPress news' you want to automatically create a link to the WordPress news blog, wpmu.org. Without this plugin, you would have to manually create these links each time you write the text in your pages and posts - which can be no fun at all.</p>\n"
+"\t<p>This section lets you set those key words and links. First, choose if you want to automatically link key words in posts, pages, or any custom post types you might be using. Usually when you are using automatic links, you will want to check all of the options here.</p>"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:29
+msgid "Comments"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:37
+msgid "Insert links in"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:43
+msgid "Link to"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:49
+msgid "Exclude Headings"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:50
+msgid "Prevent linking in heading tags"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:55
+msgid "Ignore posts and pages"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:61
+msgid "Ignore keywords"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:67
+msgid "Custom Keywords"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:76
+msgid "Other settings"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:78
+msgid "Process only single posts and pages"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:79
+msgid "Process RSS feeds"
+msgstr ""
+
+#: wds-files/wds-autolinks/wds-autolinks-settings.php:80
+msgid "Case sensitive matching"
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:160
+#, php-format
+msgid "XML %s Sitemap file found and writable."
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:162
+#, php-format
+msgid "XML %s Sitemap GZ file found but not writable, please make it writable!"
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:165
+#, php-format
+msgid "XML %s Sitemap file found but not writable, please make it writable!"
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:170
+#, php-format
+msgid "XML %s Sitemap file created (but still empty)."
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:172
+#, php-format
+msgid "XML %s Sitemap file not found and it could not be created, is the directory correct? And is it writable?"
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:180
+#, php-format
+msgid "<div class=\"correct\">XML %s Sitemap URL correct."
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:182
+#, php-format
+msgid "<div class=\"wrong\">XML %s Sitemap URL could not be verified, please make sure it's correct."
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:200
+msgid "Error: options page not found."
+msgstr ""
+
+#: wds-files/wds-core/wds-core.php:218
+msgid "Settings saved."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-admin.php:214
+#: wds-files/wds-core/admin/wds-core-admin.php:216
+#: wds-files/wds-core/admin/wds-core-admin.php:218
+#: wds-files/wds-core/admin/wds-core-admin.php:369
+msgid "WPMU DEV SEO Wizard"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-admin.php:214
+#: wds-files/wds-core/admin/wds-core-admin.php:216
+#: wds-files/wds-core/admin/wds-core-admin.php:218
+#: wds-files/wds-core/admin/wds-core-metabox.php:109
+msgid "WPMU DEV SEO"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-admin.php:234
+#: wds-files/wds-core/admin/wds-core-admin.php:345
+msgid "Settings updated"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-admin.php:238
+#: wds-files/wds-core/admin/wds-core-admin.php:349
+msgid " &amp; W3 Total Cache Page Cache flushed"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-admin.php:241
+#: wds-files/wds-core/admin/wds-core-admin.php:352
+msgid " &amp; WP Super Cache flushed"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-admin.php:258
+#: wds-files/wds-core/admin/wds-core-admin.php:379
+msgid "Save Settings"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:6
+msgid "Settings"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:7
+msgid ""
+"\n"
+"\t\t<p>WPMU DEV SEO aims to take care of every SEO option that a site requires, in one easy bundle.</p>\n"
+"\t\t<p>It is made of several components which you complete as you work through our simple SEO Set Up Wizard:</p>\n"
+"\t\t<ul>\n"
+"\t\t\t<li><b>Step 1 Settings</b>: allows you to choose which steps you want to include in your SEO Set Up Wizard. In most situations you would want to leave all four of the active components below checked.</li>\n"
+"\t\t\t<li><b>Step 2 XML Sitemap</b>: generates an xml sitemap which helps search engines to better index your site.</li>\n"
+"\t\t\t<li><b>Step 3 Title & Meta Optimization</b>: allows you to optimize title and meta tags on every page of your site.</li>\n"
+"\t\t\t<li><b>Step 4 SEOmoz Report</b>: provides detailed and accurate SEO information about your Web pages. It uses the SEOmoz Free API.</li>\n"
+"\t\t\t<li><b>Step 5 Automatic Links</b>: allows you to automatically link phrases in your posts, pages, custom post types and comments to corresponding posts, pages, custom post types, categories, tags, custom taxonomies and external urls.</li>\n"
+"\t\t</ul>\n"
+"\t"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:20
+msgid "Active Components"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:21
+msgid "In most situations you would want to leave all four of these components checked."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:26
+msgid "Check/uncheck the boxes to add/remove a step from the SEO Set Up Wizard"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:29
+msgid "Title & Meta Optimization"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:30
+msgid "SEOmoz Report"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:32
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:17
+msgid "XML Sitemap"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:39
+msgid "Show metaboxes to users"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:40
+msgid "This applies to create/edit Post pages"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:43
+msgid "Show SEO metabox to role"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:47
+#: wds-files/wds-core/admin/wds-core-config.php:59
+msgid "Super Admin"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:48
+#: wds-files/wds-core/admin/wds-core-config.php:60
+msgid "Site Admin"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:49
+#: wds-files/wds-core/admin/wds-core-config.php:61
+msgid "Editor"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:50
+#: wds-files/wds-core/admin/wds-core-config.php:62
+msgid "Author"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:51
+#: wds-files/wds-core/admin/wds-core-config.php:63
+msgid "Contributor"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-config.php:55
+msgid "Show SEOmoz metabox to role"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:162
+#: wds-files/wds-core/admin/wds-core-metabox.php:210
+msgid "Title Tag"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:164
+msgid "Robots Meta"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:211
+msgid "70 characters maximum"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:222
+msgid "Meta Description"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:223
+msgid "160 characters maximum"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:234
+msgid "Meta keywords"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:235
+msgid "Separate keywords with commas"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:249
+#: wds-files/wds-core/admin/wds-core-metabox.php:255
+msgid "Index"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:252
+msgid "Noindex"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:262
+#: wds-files/wds-core/admin/wds-core-metabox.php:268
+msgid "Follow"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:265
+msgid "Nofollow"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:275
+msgid "NO ODP (Block Open Directory Project description of the page)"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:276
+msgid "NO YDIR (Don't display the Yahoo! Directory titles and abstracts)"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:277
+msgid "No Archive"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:278
+msgid "No Snippet"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:286
+msgid "Advanced"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:291
+msgid "Meta Robots"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:293
+msgid "<code>meta</code> robots settings for this page."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:301
+msgid "Canonical URL"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:311
+msgid "301 Redirect"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:325
+msgid "Automatic prioritization"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:326
+msgid "1 - Highest priority"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:328
+msgid "Default for first tier pages"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:330
+msgid "Default for second tier pages and posts"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:331
+msgid "Medium priority"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:335
+msgid "Lowest priority"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:337
+msgid "Sitemap Priority"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-metabox.php:338
+msgid "The priority given to this page in the XML sitemap."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:43
+msgid "WPMU DEV SEO Settings "
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:46
+msgid "SEO Title"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:46
+msgid "The SEO title is used on the archive page for this term."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:47
+msgid "SEO Description"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:47
+msgid "The SEO description is used for the meta description on the archive page for this term."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:48
+msgid "Canonical"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:48
+msgid "The canonical link is shown on the archive page for this term."
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:50
+#, php-format
+msgid "Noindex this %s"
+msgstr ""
+
+#: wds-files/wds-core/admin/wds-core-taxonomy.php:51
+#, php-format
+msgid "Nofollow this %s"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:6
+msgid "Title & Meta"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:7
+#, php-format
+msgid ""
+"<p>Modify the fields below to customize the titles and meta descriptions of your site pages. <a href=\"#contextual-help\" class=\"toggle-contextual-help\">Click here to see the list of the supported macros.</a></p>\n"
+"\t<p>Search engines read the title and description for each element of your site.  The fields below are set by macros to fill in default information.  You can customize them as you wish and refer to the supported macros, by clicking the Help button.</p>\n"
+"\t<p>It seems to be generally agreed that the \"title\" and the \"description\" meta tags are important to write effectively, since several major search engines use them in their indices.   Use relevant keywords in your title, and vary the titles on the different pages that make up your website, in order to target as many keywords as possible.  As for the \"description\" meta tag, some search engines will use it as their short summary of your url, so make sure your description is one that will entice surfers to your site.</p>\n"
+"\t<p>The \"description\" meta tag is generally held to be the most valuable, and the most likely to be indexed, so pay special attention to this one.</p>\n"
+"\t<p>Here's an example of how it's been customized on WPMU DEV.</p>\n"
+"\t<p>The site description (tagline) is:\n"
+"\t<blockquote>WPMU DEV WordPress, Multisite & BuddyPress</blockquote>\n"
+"\tbut it has been customized so that the Home Meta Description is WPMU DEV Premium is:\n"
+"\t<blockquote>devoted to plugins, themes, resources and support to assist you in creating the absolute best WordPress MU (WPMU) site you can.</blockquote>\n"
+"\t<p><img src=\"%s\" alt=\"title and description sample\" /></p>\n"
+"\t<p>This plugin also adds a WPMU DEV SEO module below the Write Post / Page editor which you can use to customise SEO options for individual posts and pages.</p>"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:22
+msgid "Home"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:28
+msgid "Home Title"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:34
+msgid "Home Meta Description"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:52
+#: wds-files/wds-onpage/wds-onpage-settings.php:74
+#, php-format
+msgid "%s Title"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:58
+#: wds-files/wds-onpage/wds-onpage-settings.php:80
+#, php-format
+msgid "%s Meta Description"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:87
+msgid "Author Archive"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:93
+msgid "Author Archive Title"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:99
+msgid "Author Archive Meta Description"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:105
+msgid "Date Archives"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:111
+msgid "Date Archives Title"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:117
+msgid "Date Archives Description"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:123
+msgid "Search Page"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:129
+msgid "Search Page Title"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:135
+msgid "Search Page Description"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:141
+msgid "404 Page"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:147
+msgid "404 Page Title"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:153
+msgid "404 Page Description"
+msgstr ""
+
+#: wds-files/wds-onpage/wds-onpage-settings.php:159
+#, php-format
+msgid ""
+"\n"
+"<p>The following macros are supported:</p>\n"
+"<table class=\"widefat\">\n"
+"\t<thead>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>Tag</th>\n"
+"\t\t\t<th>Description</th>\n"
+"\t\t</tr>\n"
+"\t</thead>\n"
+"\t<tfoot>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>Tag</th>\n"
+"\t\t\t<th>Description</th>\n"
+"\t\t</tr>\n"
+"\t</tfoot>\n"
+"\t<tbody>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%date%%</th>\n"
+"\t\t\t<td>Replaced with the date of the post/page</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%title%%</th>\n"
+"\t\t\t<td>Replaced with the title of the post/page</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%sitename%%</th>\n"
+"\t\t\t<td>The site's name</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%sitedesc%%</th>\n"
+"\t\t\t<td>The site's tagline / description</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%excerpt%%</th>\n"
+"\t\t\t<td>Replaced with the post/page excerpt (or auto-generated if it does not exist)</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%excerpt_only%%</th>\n"
+"\t\t\t<td>Replaced with the post/page excerpt (without auto-generation)</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%tag%%</th>\n"
+"\t\t\t<td>Replaced with the current tag/tags</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%category%%</th>\n"
+"\t\t\t<td>Replaced with the post categories (comma separated)</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%category_description%%</th>\n"
+"\t\t\t<td>Replaced with the category description</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%tag_description%%</th>\n"
+"\t\t\t<td>Replaced with the tag description</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%term_description%%</th>\n"
+"\t\t\t<td>Replaced with the term description</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%term_title%%</th>\n"
+"\t\t\t<td>Replaced with the term name</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%modified%%</th>\n"
+"\t\t\t<td>Replaced with the post/page modified time</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%id%%</th>\n"
+"\t\t\t<td>Replaced with the post/page ID</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%name%%</th>\n"
+"\t\t\t<td>Replaced with the post/page author's 'nicename'</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%userid%%</th>\n"
+"\t\t\t<td>Replaced with the post/page author's userid</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%searchphrase%%</th>\n"
+"\t\t\t<td>Replaced with the current search phrase</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%currenttime%%</th>\n"
+"\t\t\t<td>Replaced with the current time</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%currentdate%%</th>\n"
+"\t\t\t<td>Replaced with the current date</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%currentmonth%%</th>\n"
+"\t\t\t<td>Replaced with the current month</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%currentyear%%</th>\n"
+"\t\t\t<td>Replaced with the current year</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%page%%</th>\n"
+"\t\t\t<td>Replaced with the current page number (i.e. page 2 of 4)</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%pagetotal%%</th>\n"
+"\t\t\t<td>Replaced with the current page total</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr class=\"alt\">\n"
+"\t\t\t<th>%%pagenumber%%</th>\n"
+"\t\t\t<td>Replaced with the current page number</td>\n"
+"\t\t</tr>\n"
+"\t\t<tr>\n"
+"\t\t\t<th>%%caption%%</th>\n"
+"\t\t\t<td>Attachment caption</td>\n"
+"\t\t</tr>\n"
+"\t</tbody>\n"
+"</table>"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:7
+msgid "<p>SEOmoz credentials not properly set up.</p>"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:20
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:97
+#, php-format
+msgid "Unable to retrieve data from the SEOmoz API. Error: %s."
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:24
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:54
+msgid "Domain Metrics"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:28
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:34
+#: wds-files/wds-seomoz/wds-seomoz-results.php:27
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:58
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:64
+msgid "Metric"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:29
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:35
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:59
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:65
+msgid "Value"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:40
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:70
+msgid "Domain mozRank"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:41
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:58
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:71
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:88
+#, php-format
+msgid "10-point score: %s"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:41
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:58
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:71
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:88
+#, php-format
+msgid "Raw score: %s"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:45
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:75
+msgid "Domain Authority"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:49
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:79
+msgid "External Links to Homepage"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:53
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:83
+msgid "Links to Homepage"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:57
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:87
+msgid "Homepage mozRank"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:61
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:91
+msgid "Homepage Authority"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-dashboard-widget.php:66
+msgid "For posts / pages specific metrics refer to the SEOmoz URL metrics module on the Edit Post / Page screen"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:11
+msgid "SEOmoz URL Metrics"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:31
+msgid "External Links"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:35
+msgid "Links"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:39
+msgid "mozRank"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:40
+msgid "10-point score:"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:40
+msgid "Raw score:"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-results.php:43
+msgid "Page Authority"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:11
+msgid ""
+"<p>We make it easy to integrate with SEOmoz - the industry leader in SEO reports.</p>\n"
+"\t<p><a href=\"http://seomoz.org/api/\" target=\"_blank\">Sign-up for a free account</a> to gain access to reports that will tell you how your site stacks up against the competition with all of the important SEO measurement tools - ranking, links, and much more.</p>"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:16
+msgid "Authentication"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:22
+msgid "Access ID"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:28
+msgid "Secret Key"
+msgstr ""
+
+#: wds-files/wds-seomoz/wds-seomoz-settings.php:96
+msgid "For posts / pages specific metrics refer to the SEOmoz URL metrics module on the Edit Post / Page screen,"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:7
+msgid "Sitemaps"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:8
+msgid ""
+"<p>Here we will help you create a site map which are used to help search engines find all of the information on your site.</p>\n"
+"\t<p>This is one of the basics of SEO. A sitemap helps search engines like Google, Bing, Yahoo and Ask.com to better index your blog. Search engines are better able to crawl through your site with a structured sitemap of where your content leads. This plugin supports all kinds of WordPress-generated pages as well as custom URLs. Whenever you create a new post, it will notify major search engines to come crawl your new content.</p>\n"
+"\t<p>You may also choose to not include posts, pages, custom post types, categories, or tags from your sitemap - but most sitiuations you will want to leave these in.</p>\n"
+"\t<p>(Leaving these off of a sitemap won't guarantee that a search engine won't find the information by other means!)</p>"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:23
+msgid "Path to the XML Sitemap"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:30
+msgid "URL to the XML Sitemap"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:50
+msgid "Exclude"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:56
+msgid "Exclude post types"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps-settings.php:62
+msgid "Exclude taxonomies"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:93
+#, php-format
+msgid "Poster image for %1$s video in %2$s"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:241
+#, php-format
+msgid "Video Metadata updated for %s"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:313
+#: wds-files/wds-sitemaps/wds-sitemaps.php:550
+#, php-format
+msgid "%s posts and pages found."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:409
+#, php-format
+msgid "%s taxonomy entries found."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:456
+#, php-format
+msgid "XML Sitemap Generated by WPMU DEV SEO, containing %s"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:459
+#: wds-files/wds-sitemaps/wds-sitemaps.php:545
+msgid "Starting to generate output."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:484
+#, php-format
+msgid "%1$s: <a href=\"%2$s\">Sitemap</a> successfully (re-)generated."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:486
+#, php-format
+msgid "%1$s: <a href=\"%2$s\">Something went wrong...</a>."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:514
+msgid "Google News Genre"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:515
+msgid "Genre to show in Google News Sitemap."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:517
+msgid "Press Release"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:518
+msgid "Satire"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:519
+msgid "Blog"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:520
+msgid "Op-Ed"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:521
+msgid "Opinion"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:522
+msgid "User Generated"
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:542
+msgid "XML NEWS Sitemap Generated by WPMU DEV SEO "
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:591
+#, php-format
+msgid "%1$s: <a href=\"%2$s\">News Sitemap</a> successfully (re-)generated."
+msgstr ""
+
+#: wds-files/wds-sitemaps/wds-sitemaps.php:624
+msgid "The sitemap file was not found."
+msgstr ""
+
